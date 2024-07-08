@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Wittgenstein:ital,wght@0,400..900;1,400..900&display=swap');
+
+:root{
+    --corprincipal: #214caa;
+    --corsecundaria: rgb(255, 255, 255);
+    --cortitulo: #3316b3;
+
+
+}
+
+
+body {
+    background: var(--corsecundaria);
+    overflow-x: hidden; 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arsenal SC', sans-serif;
+    text-transform: lowercase;
+    
+}
+.main-container{
+    max-width: 100px;
+    padding: 5% 15% 7%;
+    
+}
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+    margin:-200px ;
+    
+}
+
+.cabecalho h1{
+    color: var(--cortitulo);
+    position: relative;
+    left: -20px
+
+}
+
+.cabecalho img{
+    max-width:700px;
+    max-height:1px;
+    width: auto;
+    height: auto;
+
+}
+
+.container-input{
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 0 0 4%;
+    
+}
+
+.container-input .input{
+    width: 400px;
+    height: 330px;
+}
+
+#input-texto{
+    width: 345px;
+    height: 330px;
+    font-size: 20px;
+    color: var(--cortitulo);
+    background: transparent;
+    box-shadow: none;
+    border: 3px solid var(--cortitulo);
+    border-radius: 20px;
+    resize: none;
+    outline: 0;
+    padding: 10px;
+    text-transform: uppercase;
+}
+    
+
+#output{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid var(--cortitulo);
+    border-radius: 20px;
+    width: 350px;
+    height: 400px;
+    margin-right: 3%;
+}
+
+#output h2{
+    text-align: center;
+    font-size: 25px;
+    color: var(--cortitulo);
+}
+
+#output span{
+    font-size: 16px;
+    text-align: center;
+}
+
+#output img{
+    max-width:300px;
+    max-height:300px;
+    width: auto;
+    height: auto;
+    margin-top: 4%;
+}
+
+.container-bnt button{
+    border: 2px solid var(--cortitulo);
+    border-radius: 10px;
+    text-decoration: none;
+    color: var(--corprincipal);
+    width: 180px;
+    height: 50px;
+    margin-left: 4%;
+    cursor: pointer;
+}
+
+.btn-copiar{
+    border: 2px solid var(--cortitulo);
+    border-radius: 10px;
+    text-decoration: none;
+    color: var(--corprincipal);
+    width: 150px;
+    height: 50px;
+    margin-bottom: 10%;
+    margin-left: 30%;
+    cursor: pointer;
+}
+
+.container-bnt button:hover{
+   border: 2px solid var(--corsegundaria);
+   transition: 0.5s all;
+}
+
+.rodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+    margin-top: 15px ;
+    background:var(--corprincipal) ;
+    
+}
+
+.rodape h3{
+    font-size: 30px;
+}
+
+.jack{
+    transform: scaleX(-1);
+    width: 300px;
+    height: 300px;
+    margin: 1%;
+    padding: 1%;
+    margin-right: 10px;
+    
+}
